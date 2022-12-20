@@ -68,3 +68,32 @@ body {
     color: #ffffff;
     background-color: var(--accent-color);
 }
+
+/* about myself */
+
+.about > .title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.1875;
+  text-align: center;
+}
+.about > p {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+} 
+
+/*  40 projects */
+
+.fortypro {
+  width: 1920px;
+  height: 250px;
+  left: 0px;
+  top: 1059px;
+}
+.list.projects > .item {
+  display:inline-block;
+  color: #FFFFFF;
+}
+
+
