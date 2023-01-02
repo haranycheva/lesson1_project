@@ -320,5 +320,17 @@ header > .container{
   color: rgba(255, 255, 255, 1);
 }
 
+.footer h3 {
+  margin-bottom: 20px;
+
+  weidth: 500px;
+  font-size: 21px;
+  line-height: 1.2;
+}
+
+.footer p{
+  font-size: 13px;
+  line-height: 1.6;
+}
 
 
