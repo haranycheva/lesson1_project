@@ -69,7 +69,7 @@ header {
   align-items: center;
 }
 .nav-menu  .item:not(:last-child) {
-  padding-right: 42px;
+  margin-right: 42px;
 }
 .link.active {
   color: var(--accent-color);
