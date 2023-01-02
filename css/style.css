@@ -91,7 +91,7 @@ header > .container{
 
 /* hero */
 
-.hero {
+.hero, header {
   background-color: var(--second-bg);
 }
 
