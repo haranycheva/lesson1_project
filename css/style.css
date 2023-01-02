@@ -196,6 +196,10 @@ header > .container{
 }
 
 /* skills */
+.skills {
+  padding-top: 102px;
+  padding-bottom: 101px;
+}
 
 .skills-container {
   max-width: 1150px;
@@ -212,6 +216,7 @@ header > .container{
   line-height: 1.1875;
 
   margin-bottom: 50px;
+  margin-top: 102px;
 }
 
 /* how i work */
