@@ -36,16 +36,18 @@
     </header>
     <main>
       <section class="hero">
-        <img src="./img/main/frame.png" alt="frame" width="360" height="235" />
-        <div class="hero-content">
-          <h1 class="title">Дизайн и верстка</h1>
-          <p class="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-            excepturi quibusdam nemo deleniti commodi? Maiores nesciunt similique
-            itaque blanditiis, praesentium adipisci, atque officia est expedita
-            reiciendis nobis, fuga recusandae minima!
-          </p>
-          <button class="button" type="button">напишіть мені</button>
+        <div class="container">
+          <img src="./img/main/frame.png" alt="frame" width="360" height="235" />
+          <div class="hero-content">
+            <h1 class="title">Дизайн и верстка</h1>
+            <p class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+              excepturi quibusdam nemo deleniti commodi? Maiores nesciunt similique
+              itaque blanditiis, praesentium adipisci, atque officia est expedita
+              reiciendis nobis, fuga recusandae minima!
+            </p>
+            <button class="button" type="button">напишіть мені</button>
+          </div>
         </div>
       </section>
       <section class="about">
@@ -129,80 +131,84 @@
         <video src=""></video>
       </section>
       <section class="pictures">
-        <ul>
-          <li>
-            <img
-              src="./img/main/projects/project1.jpg"
-              width="480"
-              alt="photo project 1"
-            />
-          </li>
-          <li>
-            <img
-              src="./img/main/projects/ptoject2.jpg"
-              width="480"
-              alt="photo project 2"
-            />
-          </li>
-          <li>
-            <img
-              src="./img/main/projects/project1.jpg"
-              width="480"
-              alt="photo project 1"
-            />
-          </li>
-          <li>
-            <img
-              src="./img/main/projects/ptoject2.jpg"
-              width="480"
-              alt="photo project 2"
-            />
-          </li>
-          <li>
-            <img
-              src="./img/main/projects/project1.jpg"
-              width="480"
-              alt="photo project 1"
-            />
-          </li>
-          <li>
-            <img
-              src="./img/main/projects/ptoject2.jpg"
-              width="480"
-              alt="photo project 2"
-            />
-          </li>
-          <li>
-            <img
-              src="./img/main/projects/project1.jpg"
-              width="480"
-              alt="photo project 1"
-            />
-          </li>
-          <li>
-            <img
-              src="./img/main/projects/ptoject2.jpg"
-              width="480"
-              alt="photo project 2"
-            />
-          </li>
+        <ul class="list">
+          <div class="photo">
+            <li class="item">
+              <img
+                src="./img/main/projects/project1.jpg"
+                width="480"
+                alt="photo project 1"
+              />
+            </li>
+            <li class="item">
+              <img
+                src="./img/main/projects/ptoject2.jpg"
+                width="480"
+                alt="photo project 2"
+              />
+            </li>
+            <li class="item">
+              <img
+                src="./img/main/projects/project1.jpg"
+                width="480"
+                alt="photo project 1"
+              />
+            </li>
+            <li class="item">
+              <img
+                src="./img/main/projects/ptoject2.jpg"
+                width="480"
+                alt="photo project 2"
+              />
+            </li>
+          </div>
+          <div class="photo">
+            <li class="item">
+              <img
+                src="./img/main/projects/ptoject2.jpg"
+                width="480"
+                alt="photo project 2"
+              />
+            </li>
+            <li class="item">
+              <img
+                src="./img/main/projects/project1.jpg"
+                width="480"
+                alt="photo project 1"
+              />
+            </li>
+            <li class="item">
+              <img
+                src="./img/main/projects/ptoject2.jpg"
+                width="480"
+                alt="photo project 2"
+              />
+            </li>
+            <li class="item">
+              <img
+                src="./img/main/projects/project1.jpg"
+                width="480"
+                alt="photo project 1"
+              />
+            </li>
+          </div>
         </ul>
       </section>
-      <section>
-        <ul>
-          <li>
-            <img src="./img/icon/microsoft.png" width="255" alt="microsoft" />
-          </li>
-          <li>
-            <img src="./img/icon/microsoft.png" width="255" alt="microsoft" />
-          </li>
-          <li>
-            <img src="./img/icon/microsoft.png" width="255" alt="microsoft" />
-          </li>
-          <li>
-            <img src="./img/icon/microsoft.png" width="255" alt="microsoft" />
-          </li>
-        </ul>
+      <section class="microsoft">
+          <ul class="list photo">
+            <li class="item">
+              <img src="./img/icon/microsoft.png" width="255" alt="microsoft" />
+            </li>
+            <li class="item">
+              <img src="./img/icon/microsoft.png" width="255" alt="microsoft" />
+            </li>
+            <li class="item">
+              <img src="./img/icon/microsoft.png" width="255" alt="microsoft" />
+            </li>
+            <li class="item">
+              <img src="./img/icon/microsoft.png" width="255" alt="microsoft" />
+            </li>
+          </ul>
       </section>
     </main>
     <footer>
@@ -217,15 +223,20 @@
           </p>
         </div>
         <form action=""></form>
+        <div class="button-container"><button class="button" type="button">відправити</button></div>
       </section>
       <section style="background-color: #34547a" class="footer">
-        <h3 class="text">Іванов Іван</h3>
-        <ul class="list">
-          <li class="item"><img src="./img/icon/skateboard.svg" alt="skateboard" /></li>
-          <li class="item"><img src="./img/icon/skateboard.svg" alt="skateboard" /></li>
-          <li class="item"><img src="./img/icon/skateboard.svg" alt="skateboard" /></li>
-        </ul>
-        <p class="text">&copy;2018 всі права захищенно &#128518;</p>
+        <div class="container-2">
+          <div class="text-container-2">
+            <h3 class="text">Іванов Іван</h3>
+            <p class="text">&copy;2018 всі права захищено &#128518;</p>
+          </div>
+          <ul class="list photo">
+            <li class="item"><img src="./img/icon/skateboard.svg" alt="skateboard" /></li>
+            <li class="item"><img src="./img/icon/skateboard.svg" alt="skateboard" /></li>
+            <li class="item"><img src="./img/icon/skateboard.svg" alt="skateboard" /></li>
+          </ul>
+        </div>
       </section>
     </footer>
   </body>

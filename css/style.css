@@ -46,12 +46,24 @@ header {
   margin-right: auto;
 }
 
+header > .container{
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   font-size: 48px;
   line-height: 1.25;
 
+  margin-right: 398px;
+
   color: var(--accent-color);
   font-family: "Revalia", cursive;
+
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000000;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 4px 4px ;
+  
 }
 
 /* nav */
@@ -83,8 +95,17 @@ header {
   background-color: var(--second-bg);
 }
 
-.hero-content {
-  padding: 162px 405px 146px 143.1px;
+.hero-content{
+  margin-left: 131px;
+}
+
+.hero > .container{
+  display: flex;
+
+  padding-top: 162px;
+  padding-bottom: 146px;
+
+  align-items: center;
 }
 
 /* title */
@@ -148,17 +169,21 @@ header {
 }
 
 /*  40 projects */
-
 .fortypro {
-  width: 1920px;
-  height: 250px;
-  left: 0px;
-  top: 1059px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
+
 .projects {
   display: flex;
-  align-items: center;
+  justify-content: center;
   color: #ffffff;
+}
+.projects > .item{
+  display: flex;
+}
+.projects > .item > p {
+  margin-left: 20px;
 }
 
 .projects  .item:not(:last-child) {
@@ -174,8 +199,13 @@ header {
 
 .skills-container {
   max-width: 1150px;
+
+  display: flex;
 }
 
+.skills-content{
+  margin-right: 150px;
+}
 .skills-content > .title {
   font-weight: 500;
   font-size: 32px;
@@ -187,6 +217,8 @@ header {
 /* how i work */
 .mywork {
   padding-top: 201px ;
+
+  background-color: var(--second-bg);
 }
 
 .mywork .title{
@@ -211,9 +243,31 @@ header {
   display: block;
 }
 
+.photo {
+  display:flex;
+  justify-content: center;
+}
+
+
+/* microsoft */
+
+.microsoft img {
+  display: block;
+}
+
+.microsoft .item:not(:last-child){
+  margin-right: 30px;
+}
+
+.microsoft{
+  padding: 100px 0;
+}
 /* order */
 .order{
   padding-top: 200px;
+  padding-bottom: 100px;
+
+  background-color: var(--second-bg);
 }
 
 .order .title{
@@ -233,11 +287,37 @@ header {
   text-align: center;
 }
 
-/* footer */ 
+.order  .button{
+  padding: 20px 49px;
 
-.footer > .text {
+  border: none;
+
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: var(--accent-color);
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* footer */
+.footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer .container-2{
+  display: flex;
+  justify-content: center;
+}
+
+.text-container-2 {
+  margin-right: 757px;
+}
+
+.footer  .text {
   color: rgba(255, 255, 255, 1);
-  ;
 }
 
 
