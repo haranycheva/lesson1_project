@@ -95,15 +95,18 @@ header > .container{
   background-color: var(--second-bg);
 }
 
+.hero {
+  padding-top: 162px;
+  padding-bottom: 146px;
+
+}
+
 .hero-content{
-  padding-left: 131px;
+  margin-left: 131px;
 }
 
 .hero > .container{
   display: flex;
-
-  padding-top: 162px;
-  padding-bottom: 146px;
 
   align-items: center;
 }
@@ -257,7 +260,6 @@ header > .container{
 
 .pictures .photo {
   flex-wrap: wrap;
-  min-width: 1920px;
 }
 
 
