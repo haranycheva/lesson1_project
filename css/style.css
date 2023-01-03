@@ -96,7 +96,7 @@ header > .container{
 }
 
 .hero-content{
-  margin-left: 131px;
+  padding-left: 131px;
 }
 
 .hero > .container{
@@ -205,10 +205,12 @@ header > .container{
   max-width: 1150px;
 
   display: flex;
+  justify-content: center;
 }
 
 .skills-content{
-  margin-right: 150px;
+  padding-right: 150px;
+  padding-top: 102px;
 }
 .skills-content > .title {
   font-weight: 500;
@@ -216,7 +218,6 @@ header > .container{
   line-height: 1.1875;
 
   margin-bottom: 50px;
-  margin-top: 102px;
 }
 
 /* how i work */
@@ -250,7 +251,13 @@ header > .container{
 
 .photo {
   display:flex;
+  flex-direction: row;
   justify-content: center;
+}
+
+.pictures .photo {
+  flex-wrap: wrap;
+  min-width: 1920px;
 }
 
 
@@ -311,6 +318,8 @@ header > .container{
 .footer {
   padding-top: 50px;
   padding-bottom: 50px;
+
+  background-color: var(--accent-color);
 }
 .footer .container-2{
   display: flex;
